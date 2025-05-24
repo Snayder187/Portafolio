@@ -9,6 +9,9 @@ export default function Contacto() {
         <p className="text-gray-600 mb-8">
           ¿Tienes un proyecto en mente o deseas trabajar conmigo? ¡Hablemos!
         </p>
+        <p className="text-gray-600 mb-8">
+          Correo: hector.rs187@gmail.com
+        </p>
 
         <form className="grid grid-cols-1 md:grid-cols-2 gap-6 text-left">
           <input

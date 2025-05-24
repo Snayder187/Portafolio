@@ -14,15 +14,15 @@ export default function Proyectos() {
           <div className="bg-white rounded-lg overflow-hidden shadow-lg relative group hover:shadow-xl transition duration-300">
             {/* Imagen */}
             <img
-              src="/nexitix.jpg" // ⚠️ Reemplaza con tu imagen en /public
+              src="/AtencionAlCliente.jpg" // ⚠️ Reemplaza con tu imagen en /public
               alt="Proyecto NexTix"
-              className="h-56 w-full object-cover"
+              className="h-70 w-full object-cover"
             />
 
             {/* Contenido inferior */}
-            <div className="p-4 flex flex-col justify-between h-32 relative bg-white">
+            <div className="p-4 flex flex-col justify-between h-30 relative bg-white">
               {/* Nombre del proyecto */}
-              <h3 className="text-lg font-semibold text-gray-800 absolute bottom-20 left-4">
+              <h3 className="text-lg font-semibold text-gray-800 absolute bottom-16 left-4">
                 NexTix
               </h3>
 
@@ -32,16 +32,16 @@ export default function Proyectos() {
               {/* Iconos y descripción */}
               <div className="flex justify-between items-center text-sm text-gray-600">
                 {/* Tecnologías */}
-                <div className="flex space-x-2">
+                <div className="flex space-x-0">
                   <img
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
+                    src="/svg/csharp.svg"
                     alt="C#"
-                    className="w-5 h-5"
+                    className="w-10 h-10"
                   />
                   <img
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlserver/sqlserver-plain.svg"
+                    src="/svg/sqlserver.svg"
                     alt="SQL Server"
-                    className="w-5 h-5"
+                    className="w-10 h-10"
                   />
                 </div>
 
